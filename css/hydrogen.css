@@ -6,7 +6,8 @@ canvas {
 	height: 100%;
 }
 h1 {
-	font-family: 'Bubbler One', sans-serif;
+	font-family: 'Zilla Slab', serif;
+  font-size: 500%;
 	margin-bottom: 10px;
 	margin-top: 0px;
 }
@@ -65,10 +66,17 @@ button {
 }
 .grad {
     background: black; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+    background:  -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(black, white); /* Standard syntax */
+    background: linear-gradient(gray, white); /* Standard syntax */
+}
+.blend-title{
+    color:white;
+    mix-blend-mode: screen;
+    border-style: solid solid solid solid;
+    border-left-width: 10px;
+    border-right-width: 10px;
 }
 #elem1{
         -ms-transform:translate(100px, 0px); /* IE 9 */
@@ -119,6 +127,9 @@ button {
 #myChart {
 	border-style: solid;
 	border-color: #ffffff;
+}
+#equation{
+  color:white;
 }
 input[type=range] {
 	margin-bottom: 10px;

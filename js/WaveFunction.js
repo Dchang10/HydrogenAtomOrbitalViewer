@@ -178,3 +178,34 @@
 			function n4l3mPos3(x,y,z){
 				return 2*(3*Math.pow(x,2)-Math.pow(y,2))*y*r43(x,y,z)/1.2;
 			}
+			//Latex wave equation variables
+			var wn1l0m0 = "\\frac{1}{\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,e^{\\frac{-r}{a_0}}";
+			var wn2l0m0 = "\\frac{1}{4\\sqrt{2\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[2-\\frac{r}{a_0}\\right]\\,e^{\\frac{-r}{2\\,a_0}}";
+			var wn2l1mNeg1 = "\\frac{1}{8\\sqrt{pi}\\,{a_0}^\\frac{3}{2}}\\,\\\\frac{r}{a_0}\\,e^{\\frac{-r}{2\\,a_0}}\\sin\\,\\theta\\,e^{-i\\,\\phi}";
+			var wn2l1m0 = "\\frac{1}{4\\sqrt{2\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\frac{r}{a_0}\\,e^{\\frac{-r}{2\\,a_0}}\\cos\\,\\theta";
+			var wn2l1mPos1 = "\\frac{1}{8\\sqrt{pi}\\,{a_0}^\\frac{3}{2}}\\,\\\\frac{r}{a_0}\\,e^{\\frac{-r}{2\\,a_0}}\\sin\\,\\theta\\,e^{i\\,\\phi}";
+			var wn3l0m0 = "\\frac{1}{81\\sqrt{3\\,\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[27 - 18\\,\\frac{r}{a_0}+2\\frac{r}{a_0}^2\\right]e^{\\frac{-r}{3a_0}}";
+			var wn3l1mNeg1 = "\\frac{2}{81\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[6-\\frac{r}{a_0}\\right]\\frac{r}{a_0}\\,e^\\frac{-r}{3\\,a_0}\\sin\\theta\\,e^{-i\\phi}";
+			var wn3l1m0 = "\\frac{2}{81\\sqrt{6\\,\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[6-\\frac{r}{a_0}\\right]\\frac{r}{a_0}\\,e^\\frac{-r}{3\\,a_0}\\cos\\theta";
+			var wn3l1mPos1 = "\\frac{2}{81\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[6-\\frac{r}{a_0}\\right]\\frac{r}{a_0}\\,e^\\frac{-r}{3\\,a_0}\\sin\\theta\\,e^{i\\phi}";
+			var wn3l2mNeg2 = "\\frac{2}{162\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\frac{r^2}{{a_0}^2}e^{-\\frac{r}{3\\,a_0}}\\sin^2\\theta\\,e^{-i\\,2\\phi}";
+			var wn3l2mNeg1 = "\\frac{2}{81\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\frac{r^2}{{a_0}^2}e^{-\\frac{r}{3\\,a_0}}\\sin\\theta\\,\\cos\\theta\\,e^{-i\\phi}";
+			var wn3l2m0 = "\\frac{2}{81\\sqrt{6\\,\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\frac{r^2}{{a_0}^2}e^{-\\frac{r}{3\\,a_0}}(3\\cos^2\\theta - 1)";
+			var wn3l2mPos1 = "\\frac{2}{81\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\frac{r^2}{{a_0}^2}e^{-\\frac{r}{3\\,a_0}}\\sin\\theta\\,\\cos\\theta\\,e^{i\\phi}";
+			var wn3l2mPos2 = "\\frac{2}{162\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\frac{r^2}{{a_0}^2}e^{-\\frac{r}{3\\,a_0}}\\sin^2\\theta\\,e^{i\\,2\\phi}";
+			var wn4l0m0 = "\\frac{2}{8\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[1-\\frac{3}{4}\\,\\frac{r}{a_0} +\\frac{1}{8}\\,\\frac{r^2}{{a_0}^2}-\\frac{1}{192}\\,\\frac{r^3}{{a_0}^3}\\right]\\,e^{\\frac{-r}{4a_0}}";
+			var wn4l1mNeg1 = "\\frac{\\sqrt{5}}{32\\,\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[1 - \\frac{1}{4}\\,\\frac{r}{a_0}+2\\,\\frac{1}{80}\\,\\frac{r}{a_0}^2\\right]\\frac{r}{a_0}\\,e^{\\frac{-r}{4a_0}}\\,\\sin\\theta\\,e^{-i\\,\\phi}";
+			var wn4l1m0 = "\\frac{\\sqrt{5}}{32\\,\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[1 - \\frac{1}{4}\\,\\frac{r}{a_0}+2\\,\\frac{1}{80}\\,\\frac{r}{a_0}^2\\right]\\frac{r}{a_0}\\,e^{\\frac{-r}{4a_0}}\\,cos\\theta";
+			var wn4l1mPos1 = "\\frac{\\sqrt{5}}{32\\,\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[1 - \\frac{1}{4}\\,\\frac{r}{a_0}+2\\,\\frac{1}{80}\\,\\frac{r}{a_0}^2\\right]\\frac{r}{a_0}\\,e^{\\frac{-r}{4a_0}}\\,\\sin\\theta\\,e^{i\\,\\phi}";
+			var wn4l2mNeg2 = "\\frac{\\sqrt{3}}{128\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[1-\\frac{1}{12}\\,\\frac{r}{a_0}\\right]\\frac{r^2}{{a_0}^2}\\,e^\\frac{-r}{4\\,a_0}\\,\\sin\\theta \\,\\cos\\theta\\,e^{-i\\phi}";
+			var wn4l2mNeg1 = "\\frac{\\sqrt{3}}{256\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[1-\\frac{1}{12}\\,\\frac{r}{a_0}\\right]\\frac{r^2}{{a_0}^2}\\,e^\\frac{-r}{4\\,a_0}\\,\\sin^2\\theta\\,e^{-2i\\phi}";
+			var wn4l2m0 = "\\frac{1}{156\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[1-\\frac{1}{12}\\,\\frac{r}{a_0}\\right]\\frac{r^2}{{a_0}^2}\\,e^\\frac{-r}{4\\,a_0}(3\\cos^2\\theta - 1)";
+			var wn4l2mPos1 = "\\frac{\\sqrt{3}}{128\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[1-\\frac{1}{12}\\,\\frac{r}{a_0}\\right]\\frac{r^2}{{a_0}^2}\\,e^\\frac{-r}{4\\,a_0}\\,\\sin\\theta \\,\\cos\\theta\\,e^{i\\phi}";
+			var wn4l2mNeg2 = "\\frac{\\sqrt{3}}{256\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\,\\left[1-\\frac{1}{12}\\,\\frac{r}{a_0}\\right]\\frac{r^2}{{a_0}^2}\\,e^\\frac{-r}{4\\,a_0}\\,\\sin^2\\theta\\,e^{2i\\phi}";
+			var wn4l3mNeg3 = "\\frac{1}{6114\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\frac{r^3}{{a_0}^3}\\,e^{\\frac{-r}{a_0}}\\sin^3\\theta\\,e^{-3\\phi}";	
+			var wn4l3mNeg2 = "\\frac{\\sqrt{3}}{3072\\sqrt{6\\pi}\\,{a_0}^\\frac{3}{2}}\\frac{r^3}{{a_0}^3}\\,e^{\\frac{-r}{a_0}}\\sin^2\\theta\\,\\cos\\theta\\,e^{-2i\\phi}";
+			var wn4l3mNeg1 = "\\frac{\\sqrt{3}}{6114\\sqrt{5\\pi}\\,{a_0}^\\frac{3}{2}}\\frac{r^3}{{a_0}^3}\\,e^{\\frac{-r}{a_0}}\\sin\\theta\\,(5\\cos^2\\theta-1)\\,e^{-i\\phi}";
+			var wn4l3m0 = "\\frac{1}{3072\\sqrt{5\\pi}\\,{a_0}^\\frac{3}{2}}\\frac{r^3}{{a_0}^3}\\,e^{\\frac{-r}{a_0}}(5\\cos^3\\theta-3\\cos\\theta)";
+			var wn4l3Pos1 = "\\frac{\\sqrt{3}}{6114\\sqrt{5\\pi}\\,{a_0}^\\frac{3}{2}}\\frac{r^3}{{a_0}^3}\\,e^{\\frac{-r}{a_0}}\\sin\\theta\\,(5\\cos^2\\theta-1)\\,e^{i\\phi}";
+			var wn4l3mPos2 = "\\frac{\\sqrt{3}}{3072\\sqrt{6\\pi}\\,{a_0}^\\frac{3}{2}}\\frac{r^3}{{a_0}^3}\\,e^{\\frac{-r}{a_0}}\\sin^2\\theta\\,\\cos\\theta\\,e^{2i\\phi}";
+			var wn4l3mPos3 = "\\frac{1}{6114\\sqrt{\\pi}\\,{a_0}^\\frac{3}{2}}\\frac{r^3}{{a_0}^3}\\,e^{\\frac{-r}{a_0}}\\sin^3\\theta\\,e^{3\\phi}";
